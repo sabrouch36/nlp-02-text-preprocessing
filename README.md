@@ -73,35 +73,26 @@ running on your machine, and running the example will print out:
 ========================
 Pipeline executed successfully!
 ========================
-```
 
-And a new file named `project.log` will appear in the project folder.
+And a new file named project.log will appear in the project folder.
 
-## Command Reference
+Command Reference
 
 The commands below are used in the workflow guide above.
 They are provided here for convenience.
 
-Follow the guide for the **full instructions**.
+Follow the guide for the full instructions.
 
-<details>
-<summary>Show command reference</summary>
-
-### In a machine terminal (open in your `Repos` folder)
+<details> <summary>Show command reference</summary>
+In a machine terminal (open in your Repos folder)
 
 After you get a copy of this repo in your own GitHub account,
-open a machine terminal in your `Repos` folder:
+open a machine terminal in your Repos folder:
 
-```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-02-text-preprocessing
+git clone https://github.com/sabrouch36/nlp-02-text-preprocessing
 cd nlp-02-text-preprocessing
 code .
-```
-
-### In a VS Code terminal
-
-```shell
+In a VS Code terminal
 uv self update
 uv python pin 3.14
 uv sync --extra dev --extra docs --upgrade
@@ -131,15 +122,11 @@ uv run zensical build
 git add -A
 git commit -m "update"
 git push -u origin main
-```
-
 </details>
+Notes
 
-## Notes
+Use the UP ARROW and DOWN ARROW in the terminal to scroll through past commands.
 
-- Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
-- Use `CTRL+f` to find (and replace) text within a file.
+Use CTRL+f to find (and replace) text within a file.
 
-## Example Artifact (Output)
-
-![Word Cloud Example](docs/images/word_cloud_example.png)
+Example Artifact (Output)
