@@ -159,3 +159,30 @@ After these changes:
 - The number of cleaned tokens decreased
 - The frequency distribution changed
 - The visualization became more informative
+
+## Phase 5: Business Application (Mobile Store Analysis)
+
+I extended the project by applying the text preprocessing pipeline to a new dataset based on daily mobile store sales and customer feedback.
+
+### Purpose
+The goal was to analyze customer opinions and identify key factors affecting sales and satisfaction.
+
+### Key Insights
+- Frequent mentions of "customers", "sales", and "service" indicate core business focus
+- Positive feedback highlights customer service and product quality
+- Negative feedback reveals issues with pricing, waiting time, and availability
+- Promotional offers and weekends significantly increase sales activity
+
+### Conclusion
+This analysis demonstrates how text preprocessing can be applied in a real business context to better understand customer behavior and improve decision-making.
+
+## Multi-Dataset Analysis
+
+I separated the analysis into two datasets:
+
+- General text dataset
+- Mobile store customer feedback dataset
+
+This allowed me to analyze each domain independently and observe differences in token frequency and customer sentiment.
+
+The store dataset revealed key business-related terms such as "customers", "sales", and "service", while the general dataset focused on broader language patterns.
