@@ -131,19 +131,23 @@ Use CTRL+f to find (and replace) text within a file.
 
 Example Artifact (Output)
 
+## Project Enhancements
+
 ## My Modifications
 
 ### 1. Changed Input Data
 I replaced the original input file `text_data_case.txt` with my own file `text_data_sabri.txt`.
 This ensures the project uses my own dataset and demonstrates independent work.
+This change was applied in both the notebook and the Python script.
 
 ### 2. Modified Cleaning Logic
 I updated the token filtering condition from:
-len(token) > 2
+`len(token) > 2`
 to:
-len(token) > 3
+`len(token) > 3`
 
 This reduces noise by removing shorter words and results in cleaner tokens.
+This change was applied in both the notebook and the Python script.
 
 ### 3. Improved Visualization
 I increased the number of displayed tokens in the bar chart from 10 to 15.
