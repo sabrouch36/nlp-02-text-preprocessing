@@ -224,7 +224,7 @@ print(freq_df.head(20))
 # Section 10. Build a "Most Frequent Cleaned Tokens" Bar Chart
 # ============================================================
 
-top_df: pl.DataFrame = freq_df.head(10)
+top_df: pl.DataFrame = freq_df.head(15)
 
 plt.figure(figsize=(10, 5))
 plt.bar(top_df["token"], top_df["len"])
