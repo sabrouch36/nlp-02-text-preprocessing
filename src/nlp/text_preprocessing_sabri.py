@@ -62,8 +62,7 @@ log_path(LOG, "SCRIPTS_PATH", SCRIPTS_PATH)
 
 # Choose a text file to analyze.
 # Each line is treated as one text record.
-input_path: Path = DATA_PATH / "text_data_case.txt"
-
+input_path = DATA_PATH / "text_data_sabri.txt"
 # Read all lines from the file.
 text_list: list[str] = input_path.read_text(encoding="utf-8").splitlines()
 
@@ -174,10 +173,10 @@ STOP_WORDS: set[str] = {
 }
 
 # Keep only tokens that:
-# - are longer than 2 characters
+# - are longer than 3 characters
 # - are not in the stop word list
 clean_tokens: list[str] = [
-    token for token in tokens_no_punct if len(token) > 2 and token not in STOP_WORDS
+    token for token in tokens_no_punct if len(token) > 3 and token not in STOP_WORDS
 ]
 
 count_of_clean_tokens: int = len(clean_tokens)
