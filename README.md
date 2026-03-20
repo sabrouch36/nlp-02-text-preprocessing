@@ -130,3 +130,28 @@ Use the UP ARROW and DOWN ARROW in the terminal to scroll through past commands.
 Use CTRL+f to find (and replace) text within a file.
 
 Example Artifact (Output)
+
+## My Modifications
+
+### 1. Changed Input Data
+I replaced the original input file `text_data_case.txt` with my own file `text_data_sabri.txt`.
+This ensures the project uses my own dataset and demonstrates independent work.
+
+### 2. Modified Cleaning Logic
+I updated the token filtering condition from:
+len(token) > 2
+to:
+len(token) > 3
+
+This reduces noise by removing shorter words and results in cleaner tokens.
+
+### 3. Improved Visualization
+I increased the number of displayed tokens in the bar chart from 10 to 15.
+
+This provides a more detailed view of the most frequent tokens.
+
+### Observations
+After these changes:
+- The number of cleaned tokens decreased
+- The frequency distribution changed
+- The visualization became more informative
